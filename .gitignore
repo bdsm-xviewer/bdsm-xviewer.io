@@ -1,2 +1,5 @@
 node_modules/*
 .ssh/*
+src/*
+build/*
+js/app.js
