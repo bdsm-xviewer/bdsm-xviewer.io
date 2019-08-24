@@ -35,7 +35,7 @@
     "babel": "babel src --out-dir build",
     "browserify": "browserify build/App.js -o js/app.js",
     "uglify": "uglifyjs --compress --mangle -- ./js/app.js > ./js/min.app.js",
-    "build": "npm run babel && npm run browserify && npm run beep",
+    "build": "npm run babel && npm run browserify && npm run uglify && npm run beep",
     "watch": "onchange \"src/*.js*\" -d 1000 -- npm run build",
     "server": "http-server -p 8000 ./ &",
     "launch": "npm run server ; npm run watch",
