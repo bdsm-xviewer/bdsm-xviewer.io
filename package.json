@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "lodash": "^4.17.15",
     "react-color": "^2.14.1",
     "react-gif-player": "^0.4.2",
